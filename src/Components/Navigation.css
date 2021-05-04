@@ -3,7 +3,10 @@
     flex-direction: column;
     border-right: 1px solid black;
     padding: 1rem;
-    padding-bottom: 2rem;
+    position: fixed;
+    overflow-y: scroll;
+    height: 85vh;
+    background-color: rgb(123, 182, 123);
 }
 .toggleNavBar{
     display: none;
@@ -24,10 +27,10 @@
   to {background-color: rgb(123, 182, 123);}
 }
 .route{
-    border-left: 5px solid rgb(123, 182, 123);
+    border-left: 5px solid rgb(53, 78, 53);
 }
 .route.default{
-    color: rgb(82, 117, 82);
+    color: rgb(53, 78, 53);
 }
 
 @media only screen and (max-width: 450px){

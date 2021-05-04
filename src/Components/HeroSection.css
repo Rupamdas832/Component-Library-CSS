@@ -1,16 +1,8 @@
 .heroSection{
     width: 100vw;
-    min-height: 80vh;
+    min-height: 100vh;
     display: grid;
     grid-template-columns: 1fr 5fr;
-}
-.heroLeftSection{
-    position: fixed;
-    z-index: 2;
-    background-color: white;
-}
-.heroRightSection{
-    margin-left: 16rem;
 }
 
 @media only screen and (max-width: 450px){
