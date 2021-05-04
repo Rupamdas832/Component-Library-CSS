@@ -2,18 +2,21 @@
 .app{
   position: relative;
 }
-pre{
-  background-color: rgb(54, 54, 54);
-  border-radius: 1rem;
-  margin: 1rem 0;
-  padding: 0 1rem;
-  white-space: pre-wrap;
+
+:root{
+  --color1: #7BB67B;
 }
-code{
-  font-size: 0.8rem;
-  color: white;
+.appHeader{
+  z-index: 3;
+  position: fixed;
+  top: 0;
+  width: 100vw;
 }
-.avatarDiv ,.badgeAvatarDiv , .buttonDiv , .floatButtonDiv, .badgeDiv{
+.appHero{
+  margin-top: 4rem;
+}
+
+.avatarDiv ,.badgeAvatarDiv , .buttonDiv , .floatButtonDiv, .badgeDiv, .toastDiv{
   width: 100%;
   display: flex;
   flex-direction: row;

@@ -1,7 +1,7 @@
 import React from 'react'
 import Heading from '../Components/Heading'
 
-const Input = () => {
+export const Input = () => {
     return (
         <div>
         <Heading title="Input"/>
@@ -29,5 +29,3 @@ const Input = () => {
         </div>
     )
 }
-
-export default Input

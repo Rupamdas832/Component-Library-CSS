@@ -1,7 +1,7 @@
 import React from 'react'
 import Heading from '../Components/Heading'
 
-const Spinner = () => {
+export const Spinner = () => {
     return (
         <div>
         <Heading title="Spinner/Loader"/>
@@ -16,5 +16,3 @@ const Spinner = () => {
         </div>
     )
 }
-
-export default Spinner

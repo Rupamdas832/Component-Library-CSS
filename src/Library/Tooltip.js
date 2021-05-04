@@ -1,7 +1,7 @@
 import React from 'react'
 import Heading from '../Components/Heading';
 
-const Tooltip = () => {
+export const Tooltip = () => {
     return (
         <div>
         <Heading title="Tooltip"/>
@@ -19,5 +19,3 @@ const Tooltip = () => {
         </div>
     )
 }
-
-export default Tooltip;

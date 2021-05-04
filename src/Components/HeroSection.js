@@ -8,8 +8,12 @@ const HeroSection = () => {
     
     return (
         <div className="heroSection">
-            <Navigation setRoute={setRoute}/>
-            <Detail route={route}/>
+            <div className="heroLeftSection">
+                <Navigation setRoute={setRoute}/>
+            </div>
+            <div className="heroRightSection">
+                <Detail route={route}/>
+            </div>
         </div>
     )
 }

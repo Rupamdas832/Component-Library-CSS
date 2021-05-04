@@ -2,7 +2,7 @@ import React from 'react'
 import "./GettingStarted.css"
 import Heading from '../Components/Heading'
 
-const GettingStarted = () => {
+export const GettingStarted = () => {
     return (
         <div>
             <Heading title="Getting Started"/>
@@ -24,5 +24,3 @@ const GettingStarted = () => {
         </div>
     )
 }
-
-export default GettingStarted

@@ -1,7 +1,7 @@
 import React from 'react'
 import Heading from '../Components/Heading'
 
-const Avatar = () => {
+export const Avatar = () => {
     return (
         <div>
         <Heading title="Avatar"/>
@@ -39,5 +39,3 @@ const Avatar = () => {
         </div>
     )
 }
-
-export default Avatar

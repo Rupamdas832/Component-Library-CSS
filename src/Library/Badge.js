@@ -1,7 +1,7 @@
 import React from 'react'
 import Heading from '../Components/Heading'
 
-const Badge = () =>{
+export const Badge = () =>{
     return (
         <div>
         <Heading title="Notification Badge"/>
@@ -24,5 +24,3 @@ const Badge = () =>{
         
     )
 }
-
-export default Badge

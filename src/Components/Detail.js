@@ -1,18 +1,7 @@
 import React, { useEffect } from 'react'
 import "./Detail.css"
 
-import Badge from "../Library/Badge"
-import Avatar from "../Library/Avatar"
-import Form from '../Library/Form'
-import Input from '../Library/Input'
-import Card from '../Library/Card'
-import Button from '../Library/Button'
-import GettingStarted from '../Library/GettingStarted'
-import Navbar from '../Library/Navbar'
-import Modal from '../Library/Modal'
-import Tooltip from '../Library/Tooltip'
-import Dropdown from '../Library/Dropdown'
-import Spinner from '../Library/Spinner'
+import { Avatar, Badge, Button, Card, Dropdown, Form, GettingStarted, Input, Modal, Navbar, Spinner, Toast, Tooltip } from '../Library'
 
 const Detail = ({route = "button"}) => {
 
@@ -43,6 +32,8 @@ const Detail = ({route = "button"}) => {
                 return <Dropdown/>
             case 'spinner':
                 return <Spinner/>
+            case 'toast':
+                return <Toast/>
             default :
                 return <GettingStarted/>
         }

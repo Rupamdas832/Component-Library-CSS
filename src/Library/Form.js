@@ -1,7 +1,7 @@
 import React from 'react'
 import Heading from '../Components/Heading'
 
-const Form = () => {
+export const Form = () => {
     return (
         <div>
         <Heading title="Form"/>
@@ -39,5 +39,3 @@ const Form = () => {
         </div>
     )
 }
-
-export default Form

@@ -1,7 +1,7 @@
 import React from 'react'
 import Heading from '../Components/Heading'
 
-const Dropdown = () => {
+export const Dropdown = () => {
     return (
         <div>
         <Heading title="Dropdown Button"/>
@@ -25,5 +25,3 @@ const Dropdown = () => {
         </div>
     )
 }
-
-export default Dropdown

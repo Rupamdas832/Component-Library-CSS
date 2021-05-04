@@ -1,7 +1,7 @@
 import React from 'react'
 import Heading from '../Components/Heading'
 
-const Modal = () => {
+export const Modal = () => {
     return (
         <div>
         <Heading title="Modal"/>
@@ -58,5 +58,3 @@ const Modal = () => {
         </div>
     )
 }
-
-export default Modal

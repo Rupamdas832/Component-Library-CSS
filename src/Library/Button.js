@@ -1,7 +1,7 @@
 import React from 'react'
 import Heading from '../Components/Heading'
 
-const Button = () => {
+export const Button = () => {
     return (
         <div>
         <Heading title="Button"/>
@@ -27,5 +27,3 @@ const Button = () => {
     </div>
     )
 }
-
-export default Button

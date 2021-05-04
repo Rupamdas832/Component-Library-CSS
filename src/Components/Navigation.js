@@ -12,7 +12,7 @@ const Navigation = ({setRoute}) => {
         setToggle(!toggle)
     }
     const routes = [
-        "Navbar", "Avatar","Badge","Button","Tooltip", "Card","Input","Form","Modal","Dropdown","Spinner"
+        "Navbar", "Avatar","Badge","Button","Tooltip", "Card","Input","Form","Modal","Dropdown","Spinner","Toast"
     ]
     routes.sort(function(a,b){
         if(a>b){return 1;}

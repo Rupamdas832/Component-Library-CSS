@@ -1,7 +1,7 @@
 import React from 'react'
 import Heading from '../Components/Heading'
 
-const Card = () => {
+export const Card = () => {
     return (
         <div>
         <Heading title="Card"/>
@@ -65,6 +65,32 @@ const Card = () => {
                 className="iframeLarge"
                 sandbox="allow-scripts allow-same-origin">
             </iframe>
+            <div className="flatCard small">
+                <div className="imgFlat small">
+                    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8am9yZG9uJTIwc2hvZXN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"/>
+                </div>
+                <div className="detailFlat small">
+                    <h2>Jordan React Elevation PF</h2>
+                    <div className="priceFlat small">
+                        <h4>₹10295</h4>
+                        <div>
+                            <button className="btn outline">+</button>
+                            3
+                            <button className="btn outline">-</button>
+                        </div>
+                        
+                    </div>
+                    <div className="btnsFlat small">
+                        <button className="btn outline"><i class="far fa-heart"></i></button>
+                        <button className="btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28123%2C182%2C123%2C1%29&t=vscode&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520className%253D%2522flatCard%2520small%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520className%253D%2522imgFlat%2520small%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522sample.jpg%2522%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520className%253D%2522detailFlat%2520small%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EJordan%2520React%2520Elevation%2520PF%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520className%253D%2522priceFlat%2520small%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253E%25E2%2582%25B910295%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520className%253D%2522btn%2520outline%2522%253E%252B%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%25203%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520className%253D%2522btn%2520outline%2522%253E-%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520className%253D%2522btnsFlat%2520small%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520className%253D%2522btn%2520outline%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520className%253D%2522btn%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                className="iframeLarge"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
             <div className="ecommerceCard">
                 <div className="cardBadge">
                     <h5>New</h5>
@@ -93,5 +119,3 @@ const Card = () => {
         </div>
     )
 }
-
-export default Card
